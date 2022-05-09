@@ -1,3 +1,4 @@
-# Timezone
+# Snowave
 This is a real time weather forcast website .
- designed with the help of html,css,javaScript.
+ Designed with the help of html,css,javaScript.
+ weather data fetched through API.
