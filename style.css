@@ -67,7 +67,7 @@
     display: flex;
     justify-content: space-around;
 }
-.future-forcast{
+.future-forecast{
     background: rgba(24,24,27,0.8);
     position:fixed;
     padding: 25px;
@@ -80,33 +80,33 @@
 
 
 }
-.future-forcast .today{
+.future-forecast .today{
     display: flex;
     align-items: center;
     justify-content: center;
     padding:3rem;
 
 }
-.future-forcast .today .day{
+.future-forecast .today .day{
     padding:5px 15px;
     background: #3C3C44;
     border-radius: 50px;
 
 }
-.future-forcast .today .temp{
+.future-forecast .today .temp{
     padding-top: 20px;
 }
- .future-forcast .weather-forcast{
+ .future-forecast .weather-forecast{
      display: flex;
      
  }
  .today .w-icon{
 width: 90px;
 }
- .weather-forcast-item .w-icon{
+ .weather-forecast-item .w-icon{
      width: 60px;
  }
- .weather-forcast .weather-forcast-item{
+ .weather-forecast .weather-forecast-item{
      display: flex;
      flex-direction: column;
      padding :15px;
@@ -117,17 +117,17 @@ width: 90px;
      margin: 15px;
 
  }
- .weather-forcast .weather-forcast-item .temp{
+ .weather-forecast .weather-forecast-item .temp{
      padding :3px;
      font-weight: 100;
  }
- .weather-forcast .weather-forcast-item .day{
+ .weather-forecast .weather-forecast-item .day{
      padding:5px 10px;
      background: #3C3C44;
      border-radius: 50px;
  }
  @media only screen and (max-width:730px){
-     .future-forcast{
+     .future-forecast{
          justify-content: start;
          align-items: none;
          overflow-y: scroll;
